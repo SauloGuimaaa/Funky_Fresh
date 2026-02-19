@@ -1,0 +1,162 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Funky Fresh — Estrutura Base</title>
+    <meta
+      name="description"
+      content="Estrutura base inspirada em e-commerce institucional, com placeholders de imagens e espaços para copy."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles/tokens.css" />
+    <link rel="stylesheet" href="styles/main.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#conteudo-principal">Pular para conteúdo principal</a>
+
+    <header class="site-header">
+      <div class="container header-content">
+        <a href="#" class="brand" aria-label="Página inicial">
+          <img src="assets/placeholders/logo-placeholder.svg" alt="Logo placeholder" />
+        </a>
+        <nav aria-label="Navegação principal">
+          <ul class="nav-list">
+            <li><a href="#colecoes">Coleções</a></li>
+            <li><a href="#destaques">Destaques</a></li>
+            <li><a href="#sobre">Sobre</a></li>
+            <li><a href="#contato">Contato</a></li>
+          </ul>
+        </nav>
+        <button class="menu-button" aria-label="Abrir menu">☰</button>
+      </div>
+    </header>
+
+    <main id="conteudo-principal">
+      <section class="hero" aria-labelledby="hero-title">
+        <div class="container hero-grid">
+          <div class="hero-copy">
+            <p class="eyebrow">[COPY • TAGLINE CURTA]</p>
+            <h1 id="hero-title">[COPY • HEADLINE PRINCIPAL AQUI]</h1>
+            <p class="hero-description">[COPY • SUBTÍTULO / PROPOSTA DE VALOR AQUI]</p>
+            <div class="hero-actions">
+              <a class="button button-primary" href="#colecoes">[CTA PRINCIPAL]</a>
+              <a class="button button-secondary" href="#sobre">[CTA SECUNDÁRIO]</a>
+            </div>
+          </div>
+          <figure class="hero-image">
+            <img
+              src="assets/placeholders/hero-placeholder.svg"
+              alt="Placeholder da imagem principal"
+            />
+          </figure>
+        </div>
+      </section>
+
+      <section id="colecoes" class="section" aria-labelledby="colecoes-title">
+        <div class="container">
+          <div class="section-heading">
+            <p class="eyebrow">[COPY • LABEL DA SEÇÃO]</p>
+            <h2 id="colecoes-title">[COPY • TÍTULO DE COLEÇÕES]</h2>
+            <p>[COPY • TEXTO DE APOIO DA SEÇÃO DE COLEÇÕES]</p>
+          </div>
+
+          <div class="cards-grid">
+            <article class="card">
+              <img src="assets/placeholders/card-1-placeholder.svg" alt="Coleção 1 placeholder" />
+              <div class="card-body">
+                <h3>[COPY • NOME DA COLEÇÃO 1]</h3>
+                <p>[COPY • DESCRIÇÃO BREVE DA COLEÇÃO 1]</p>
+              </div>
+            </article>
+            <article class="card">
+              <img src="assets/placeholders/card-2-placeholder.svg" alt="Coleção 2 placeholder" />
+              <div class="card-body">
+                <h3>[COPY • NOME DA COLEÇÃO 2]</h3>
+                <p>[COPY • DESCRIÇÃO BREVE DA COLEÇÃO 2]</p>
+              </div>
+            </article>
+            <article class="card">
+              <img src="assets/placeholders/card-3-placeholder.svg" alt="Coleção 3 placeholder" />
+              <div class="card-body">
+                <h3>[COPY • NOME DA COLEÇÃO 3]</h3>
+                <p>[COPY • DESCRIÇÃO BREVE DA COLEÇÃO 3]</p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="destaques" class="section section-highlight" aria-labelledby="destaques-title">
+        <div class="container split-grid">
+          <figure>
+            <img src="assets/placeholders/feature-placeholder.svg" alt="Imagem destaque placeholder" />
+          </figure>
+          <div>
+            <p class="eyebrow">[COPY • LABEL DE DESTAQUE]</p>
+            <h2 id="destaques-title">[COPY • TÍTULO DE DESTAQUE]</h2>
+            <p>[COPY • PARÁGRAFO DE DESTAQUE COM BENEFÍCIOS PRINCIPAIS]</p>
+            <ul class="bullet-list">
+              <li>[COPY • BENEFÍCIO 1]</li>
+              <li>[COPY • BENEFÍCIO 2]</li>
+              <li>[COPY • BENEFÍCIO 3]</li>
+            </ul>
+            <a class="button button-primary" href="#contato">[CTA DE DESTAQUE]</a>
+          </div>
+        </div>
+      </section>
+
+      <section id="sobre" class="section" aria-labelledby="sobre-title">
+        <div class="container section-heading">
+          <p class="eyebrow">[COPY • LABEL SOBRE]</p>
+          <h2 id="sobre-title">[COPY • TÍTULO SOBRE A MARCA]</h2>
+          <p>[COPY • HISTÓRIA / MANIFESTO DA MARCA]</p>
+          <p>[COPY • DIFERENCIAL / POSICIONAMENTO]</p>
+        </div>
+      </section>
+
+      <section id="contato" class="section" aria-labelledby="contato-title">
+        <div class="container contact-box">
+          <div>
+            <p class="eyebrow">[COPY • LABEL CONTATO]</p>
+            <h2 id="contato-title">[COPY • CHAMADA FINAL]</h2>
+            <p>[COPY • TEXTO FINAL PARA CONVERSÃO / CONTATO]</p>
+          </div>
+          <form class="contact-form" aria-label="Formulário de contato">
+            <label>
+              Nome
+              <input type="text" placeholder="[PLACEHOLDER NOME]" />
+            </label>
+            <label>
+              E-mail
+              <input type="email" placeholder="[PLACEHOLDER EMAIL]" />
+            </label>
+            <label>
+              Mensagem
+              <textarea rows="5" placeholder="[PLACEHOLDER MENSAGEM]"></textarea>
+            </label>
+            <button class="button button-primary" type="button">[BOTÃO ENVIAR]</button>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-content">
+        <p>[COPY • RODAPÉ / DIREITOS / TAGLINE]</p>
+        <ul>
+          <li><a href="#">Instagram</a></li>
+          <li><a href="#">TikTok</a></li>
+          <li><a href="#">YouTube</a></li>
+        </ul>
+      </div>
+    </footer>
+
+    <script src="scripts/main.js"></script>
+  </body>
+</html>
