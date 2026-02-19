@@ -1,0 +1,52 @@
+# Template de Copy para preenchimento
+
+## Hero
+- TAGLINE CURTA:
+- HEADLINE PRINCIPAL:
+- SUBTÍTULO / PROPOSTA DE VALOR:
+- CTA PRINCIPAL:
+- CTA SECUNDÁRIO:
+
+## Coleções
+- LABEL DA SEÇÃO:
+- TÍTULO DA SEÇÃO:
+- TEXTO DE APOIO:
+
+### Coleção 1
+- NOME:
+- DESCRIÇÃO:
+
+### Coleção 2
+- NOME:
+- DESCRIÇÃO:
+
+### Coleção 3
+- NOME:
+- DESCRIÇÃO:
+
+## Destaques
+- LABEL:
+- TÍTULO:
+- PARÁGRAFO:
+- BENEFÍCIO 1:
+- BENEFÍCIO 2:
+- BENEFÍCIO 3:
+- CTA:
+
+## Sobre
+- LABEL:
+- TÍTULO:
+- HISTÓRIA / MANIFESTO:
+- DIFERENCIAL / POSICIONAMENTO:
+
+## Contato
+- LABEL:
+- CHAMADA FINAL:
+- TEXTO FINAL:
+- PLACEHOLDER NOME:
+- PLACEHOLDER EMAIL:
+- PLACEHOLDER MENSAGEM:
+- BOTÃO ENVIAR:
+
+## Rodapé
+- TEXTO DE RODAPÉ:
